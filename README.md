@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Chuck Norris Jokes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um aplicativo que exibe piadas e frases icônicas do lendário Chuck Norris. O aplicativo tem um design estilizado com imagens, ícones, e balões de fala, além de interatividade com piadas aleatórias.
 
-## Available Scripts
+## Funcionalidades Implementadas
 
-In the project directory, you can run:
+### 1. Troca do Ícone Favicon
+- O favicon foi alterado para um ícone personalizado de Chuck Norris, que pode ser visualizado ao lado do título da página.
 
-### `npm start`
+### 2. Estilização do Fundo
+- Foi inserida uma imagem de fundo que complementa o estilo do site, deixando-o mais visualmente agradável e dinâmico.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Imagem do Chuck Norris
+- Foi adicionada uma imagem de Chuck Norris que se movimenta levemente para dar mais vida ao layout.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. Iluminação nos Balões de Fala
+- Foi aplicada uma leve iluminação atrás dos balões de fala, criando um efeito visual interessante e destacando as mensagens.
 
-### `npm test`
+### 5. Balões de Fala
+- Um dos balões contém frases icônicas e informativas sobre os feitos de Chuck Norris.
+- Outro balão orienta os usuários a utilizarem o tradutor do navegador para traduzir os textos em inglês, melhorando a experiência de quem não domina o idioma.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 6. Estilização do Botão "Outra Piada"
+- O botão "Outra Piada" foi estilizado para se adequar ao design da página.
 
-### `npm run build`
+### 7. Funcionamento do Botão
+- Ao pressionar o botão "Outra Piada", um modal aparece na tela.
+- Dentro do modal, é exibida uma piada em inglês, retirada do site [Chuck Norris API](https://api.chucknorris.io/).
+- Toda vez que o usuário pressionar o botão, uma nova piada aleatória será exibida, garantindo uma experiência única e divertida a cada clique.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Usar
+- Para obter uma nova piada, basta clicar no botão "Outra Piada". 
+- O modal aparecerá com uma piada ou frase aleatória sobre Chuck Norris.
+- Para fechar o modal, clique no "X" no canto superior direito.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologias Utilizadas
+- **React**: Para criar componentes e gerenciar o estado da aplicação.
+- **Axios**: Para fazer requisições à API de piadas do Chuck Norris.
+- **CSS**: Para estilização da página, incluindo imagens, balões de fala e animações.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Imagens e Ícones
+- Favicon: ![Chuck Norris Favicon](https://img.icons8.com/?size=100&id=B66tBXIKOwR9&format=png&color=000000)
+- Chuck Norris Image: Uma imagem animada de Chuck Norris foi adicionada ao layout para enriquecer a experiência visual do usuário.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conclusão
+Este projeto foi desenvolvido com o objetivo de proporcionar uma experiência divertida e interativa, trazendo o humor das piadas de Chuck Norris para uma interface estilosa e amigável.
