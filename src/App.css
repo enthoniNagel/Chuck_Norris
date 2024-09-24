@@ -1,38 +1,151 @@
-.App {
+body {
+  background-color: #2c3e50;
+  color: white;
+  font-family: 'Arial', sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.joke-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e74c3c;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.joke-button:hover {
+  background-color: #c0392b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: #34495e;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #e74c3c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chuck-norris {
+  position: relative;
+  margin-top: 20px;
+}
+
+.chuck-image {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(10px); }
+}
+.speech-bubble {
+  position: relative;
+  background: #34495e;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  bottom: 100%; 
+  left: 50%;
+  margin-left: -10px; 
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #34495e transparent; 
+}
+.speech-bubble {
+  position: relative;
+  background: #2c3e50; 
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  width: 70%; 
+  max-width: 300px; 
+  color: white;
+  text-align: center;
+  font-size: 16px; 
+  box-shadow: 0 0 10px rgb(177, 98, 8); 
+  animation: sparkle 1.5s infinite alternate; 
+}
+
+@keyframes sparkle {
+  0% {
+    box-shadow: 0 0 20px rgb(177, 98, 8);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    box-shadow: 0 0 30px rgb(177, 98, 8)rgb, 0 0 40px rgb(177, 98, 8);
+  }
+  100% {
+    box-shadow: 0 0 20px rgb(177, 98, 8);
   }
 }
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  bottom: 100%; 
+  left: 50%;
+  margin-left: -10px; 
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #2c3e50 transparent; 
+}
+body {
+  background-image: url('https://cdn.leonardo.ai/users/03a4e8e9-4f81-40cc-83c2-c5c4475136fe/generations/ebea17d1-cf8b-4385-934e-1d314a94e46d/Leonardo_Phoenix_A_gritty_sunscorched_desert_landscape_from_a_0.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
+  font-family: 'Arial', sans-serif; 
+  text-align: center; 
+}
+
+
+
+
