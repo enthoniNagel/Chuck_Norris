@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Chuck_Norris/static/css/main.98faee3b.css",
+    "main.js": "/Chuck_Norris/static/js/main.6debda2d.js",
+    "static/js/453.a44ece70.chunk.js": "/Chuck_Norris/static/js/453.a44ece70.chunk.js",
+    "index.html": "/Chuck_Norris/index.html",
+    "main.98faee3b.css.map": "/Chuck_Norris/static/css/main.98faee3b.css.map",
+    "main.6debda2d.js.map": "/Chuck_Norris/static/js/main.6debda2d.js.map",
+    "453.a44ece70.chunk.js.map": "/Chuck_Norris/static/js/453.a44ece70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98faee3b.css",
+    "static/js/main.6debda2d.js"
+  ]
+}
